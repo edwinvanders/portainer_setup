@@ -14,6 +14,7 @@ docker run -d -p 8000:8000 -p 9443:9443 \
 After running the above, Portainer should be available at https://localhost:9443/
 
 Instead of the above `docker run` command, on should be able to run the following Docker Compose file
+(in this case `compose.yaml`):
 
 ```yaml
 name: portainer_ce
@@ -37,6 +38,5 @@ volumes:
 using
 
 ```console
-docker-compose up -d
+docker compose up -d
 ```
-
